@@ -1,4 +1,3 @@
-import { Satellite } from './satellite';
 export class Satellite {
 
 	name: string;
@@ -14,15 +13,16 @@ export class Satellite {
 		this.orbitType = orbitType;
 		this.operational = operational;
    }
+  }
 
-	isSpaceDebris(): boolean = true;
-    if (Satellite = "Space Debris") {
-      this.type = true;
-    }
-    else {
-      return (false)
+//  let isSpaceDebris: string = "Space Debris";
+//     if ( isSpaceDebris= "Space Debris") {
+//       this.type = true;
+//     }
+//     else  {
+//       return (false)
 
-    }
+
 
 
 
